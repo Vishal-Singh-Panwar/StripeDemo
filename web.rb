@@ -53,6 +53,6 @@ post '/subscribe' do
     end
     
     status 200
-    return "Subscription successfully created"
+    return customer
     
 end
